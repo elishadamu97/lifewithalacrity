@@ -36,7 +36,7 @@ _Christopher is available for personal consulting engagements on decentralized d
 
 _See all [Posts](/posts/)._
 <figure class="half">
-    <a href="/test/assets/images/foo-bar-identity.jpg"><img src="/test/assets/images/foo-bar-identity.jpg"></a>
-    <a href="/test/assets/images/foo-bar-identity-th.jpg"><img src="/test/assets/images/foo-bar-identity-th.jpg"></a>
+    <a href="/assets/images/foo-bar-identity.jpg"><img src="/assets/images/foo-bar-identity.jpg"></a>
+    <a href="/assets/images/foo-bar-identity-th.jpg"><img src="/assets/images/foo-bar-identity-th.jpg"></a>
     <figcaption>Caption describing these two images.</figcaption>
 </figure>
