@@ -1,0 +1,36 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+$max-width:90%;
+
+$footer-background-color: #1d682a;
+$link-color: #008800;
+$masthead-link-color: #008800;
+
+.page__footer-copyright,
+.page__footer-follow .social-icons a,
+.page__footer-follow .social-icons li,
+.page__footer-follow .social-icons i,
+.page__footer-follow .social-icons .svg-inline--fa  {
+  color: white;
+}
+
+
+.author__urls.social-icons .svg-inline--fa,
+.masthead,
+.masthead a {
+  color: #008800;
+}
+
+.page__title {
+        text-decoration: none !important;
+}
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+.notice--success {
+    font-size: .9em !important; // Between type-size-5 and type-size-6
+}
