@@ -28,8 +28,16 @@ body{
     font-weight: bold;
     font-size: 27px;
 }
+.greedy-nav a {
+    position: relative;
+    font-weight: bold;
+    font-size: 22px;
+}
 .greedy-nav a:hover {
     color: #0a5b3f;;
+}
+.introduction{
+    font-size: 20px !important;
 }
 @media screen and (max-width: 767px) {
     #main {
