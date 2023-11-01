@@ -5,7 +5,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-# theme                    : "minimal-mistakes-jekyll"
+theme                    : "minimal-mistakes-jekyll"
 remote_theme             : mmistakes/minimal-mistakes
 
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
@@ -98,34 +98,52 @@ author:
   bio              : "I am an **amazing** person."
   location         : "Somewhere"
   links:
-    - label: "Your Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://your-site.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
+      color: 00acee
       url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"
-    - label: "Instagram"
+      color: 6cc644
+    - label: "Linkedin"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
+      color: 0072b1
 
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+    - label: "Blockchain Commons"
+      icon: "fab fa-creative-commons-sampling-plus"
+      url: "https://www.blockchaincommons.com/"
+      color: 2754ba
+    - label: "SmartCustody"
+      icon: "fas fa-info-circle"
+      url: "https://www.smartcustody.com/"
+      color: 32658b
+ 
+info:
+  links:
+    - label: "Email Address"
+      icon: "fas fa-inbox"
+      url: "ChristopherA@LifeWithAlacrity.com"
+      color: 2754ba
+    - label: "Home page"
+      icon: "fas fa-inbox"
+      url: "/about"
+      color: 2754ba
+    - label: "Tags"
+      icon: "fas fa-inbox"
+      url: "/tags-archive"
+      color: 2754ba
+    - label: "Category"
+      icon: "fas fa-inbox"
+      url: "/category-archive-grid"
+      color: 2754ba
 
-
+ 
 # Reading Files
 include:
   - .htaccess
