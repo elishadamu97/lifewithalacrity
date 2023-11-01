@@ -5,7 +5,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-theme                    : "minimal-mistakes-jekyll"
+# theme                    : "minimal-mistakes-jekyll"
 remote_theme             : mmistakes/minimal-mistakes
 
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
@@ -133,15 +133,15 @@ info:
     - label: "Home page"
       icon: "fas fa-inbox"
       url: "/about"
-      color: 2754ba
+      color: ffa500
     - label: "Tags"
       icon: "fas fa-inbox"
       url: "/tags-archive"
-      color: 2754ba
+      color: 03a5ce
     - label: "Category"
       icon: "fas fa-inbox"
       url: "/category-archive-grid"
-      color: 2754ba
+      color: e0336f
 
  
 # Reading Files
